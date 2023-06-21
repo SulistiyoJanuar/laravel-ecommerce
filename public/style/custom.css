@@ -1,0 +1,47 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-bag {
+    color: #fff;
+}
+
+.nav-bag:hover {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.notif {
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+.circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: red;
+    top: 0;
+    right: 0px;
+    text-align: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+section {
+    height: 80vh;
+}
+
+/* Footer */
+footer {
+    background-color: #712cf9;
+    width: 100%;
+    color: #fff;
+    bottom: 0;
+    position: static;
+}
